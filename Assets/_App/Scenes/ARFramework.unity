@@ -1398,7 +1398,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1000561322}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ffb4afa750557394da8f1caa8c5738e4, type: 3}
+  m_Script: {fileID: 11500000, guid: 6527238fb4f54c2448ec488a19070c01, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   interactionModes:
@@ -1408,7 +1408,7 @@ MonoBehaviour:
       draggable: 1
       expandable: 1
       multipleSelection: 1
-      isExpanded: 1
+      isExpanded: 0
       label:
         m_Text: Keys
         m_Image: {fileID: 0}
@@ -1423,22 +1423,10 @@ MonoBehaviour:
       elementNameOverride: 
       elementIcon: {fileID: 0}
     reqReferences: {fileID: 0}
-    isExpanded: 1
-    _keyValues:
-    - Startup
-    - NonAR
-    - Scan
-    - Main
-    _keys:
-    - Startup
-    - NonAR
-    - Scan
-    - Main
-    _values:
-    - {fileID: 684896091}
-    - {fileID: 151372507}
-    - {fileID: 1331831272}
-    - {fileID: 1666576029}
+    isExpanded: 0
+    _keyValues: []
+    _keys: []
+    _values: []
 --- !u!1 &1028031214
 GameObject:
   m_ObjectHideFlags: 0
@@ -1486,7 +1474,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1028031214}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3384c381a120e0c4ba1698750bf47b0e, type: 3}
+  m_Script: {fileID: 11500000, guid: d5975db0877152d47adb64483bbae639, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   uiPanels:
@@ -1496,7 +1484,7 @@ MonoBehaviour:
       draggable: 1
       expandable: 1
       multipleSelection: 1
-      isExpanded: 1
+      isExpanded: 0
       label:
         m_Text: Keys
         m_Image: {fileID: 0}
@@ -1511,22 +1499,10 @@ MonoBehaviour:
       elementNameOverride: 
       elementIcon: {fileID: 0}
     reqReferences: {fileID: 0}
-    isExpanded: 1
-    _keyValues:
-    - Startup
-    - NonAR
-    - Scan
-    - Main
-    _keys:
-    - Startup
-    - NonAR
-    - Scan
-    - Main
-    _values:
-    - {fileID: 481336532}
-    - {fileID: 535739775}
-    - {fileID: 1371882136}
-    - {fileID: 1235479286}
+    isExpanded: 0
+    _keyValues: []
+    _keys: []
+    _values: []
 --- !u!1 &1051022148
 GameObject:
   m_ObjectHideFlags: 0
@@ -1677,12 +1653,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1115431177}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e1760703bbd54c04488a8d10600262ab, type: 3}
+  m_Script: {fileID: 11500000, guid: 4dea56a9eaadd1c439095de4f9a371cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_PlanePrefab: {fileID: 1568414836858200, guid: 019955292ec4b5147ae333bf17bda419,
-    type: 3}
-  m_DetectionMode: -1
+  m_SerializedLibrary: {fileID: 0}
+  m_MaxNumberOfMovingImages: 0
+  m_TrackedImagePrefab: {fileID: 0}
 --- !u!1 &1235479284
 GameObject:
   m_ObjectHideFlags: 0
@@ -2148,8 +2124,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: -780, y: -50}
+  m_AnchoredPosition: {x: 6.1016235, y: 0}
+  m_SizeDelta: {x: -767.7969, y: -50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1412666648
 MonoBehaviour:
@@ -2171,7 +2147,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: AR Project
+  m_text: Planet Explorer
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
